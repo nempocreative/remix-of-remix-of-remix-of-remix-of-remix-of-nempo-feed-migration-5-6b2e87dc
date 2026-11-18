@@ -111,3 +111,4 @@
 - [x] Garut Beans slide 01 footer tagline: font swapped to Cormorant Garamond italic on two hand-balanced lines, footer band raised so the contact pills are no longer clipped at the slide edge; PNG 3× recaptured, download verified byte-identical
 - [x] Garut Beans slide 01: tagline balik ke font Caveat, lebih kecil, rata kanan ke pill WhatsApp; PNG unduhan direkam ulang
 - [x] Garut Beans slide 01: tagline satu baris lurus, diperkecil biar ujung kanannya pas sama ujung pill WhatsApp; PNG unduhan direkam ulang
+- [x] GGS Feed slide 60: promo akhir tahun (kuku asli 185.000→135.000, kuku palsu 250.000→195.000, 18 Nov–31 Des 2026) gaya stiker slide 53; PNG transparan 3240×4320 diunduh
