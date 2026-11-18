@@ -1,11 +1,11 @@
 {
-  "version": 1,
   "asset_id": "9478a696-3469-4f33-ae0e-954adb6f5417",
-  "project_id": "87a2f2e2-5af9-46e2-8f0a-ca7df934c471",
-  "url": "/__l5e/assets-v1/9478a696-3469-4f33-ae0e-954adb6f5417/ggs-feed-39-nail-art.jpg",
-  "r2_key": "a/v1/87a2f2e2-5af9-46e2-8f0a-ca7df934c471/9478a696-3469-4f33-ae0e-954adb6f5417/ggs-feed-39-nail-art.jpg",
-  "original_filename": "ggs-feed-39-nail-art.jpg",
-  "size": 634120,
   "content_type": "image/jpeg",
-  "created_at": "2026-11-18T09:02:46Z"
+  "created_at": "2026-11-18T09:02:46Z",
+  "original_filename": "ggs-feed-39-nail-art.jpg",
+  "project_id": "69d38703-1bcc-460d-b930-b716e4ac04a5",
+  "r2_key": "a/v1/69d38703-1bcc-460d-b930-b716e4ac04a5/9478a696-3469-4f33-ae0e-954adb6f5417/ggs-feed-39-nail-art.jpg",
+  "size": 634120,
+  "url": "/__l5e/assets-v1/9478a696-3469-4f33-ae0e-954adb6f5417/ggs-feed-39-nail-art.jpg",
+  "version": 1
 }

@@ -1,11 +1,11 @@
 {
-  "version": 1,
   "asset_id": "7668dda7-f3d5-47e5-b708-d901813e6e31",
-  "project_id": "87a2f2e2-5af9-46e2-8f0a-ca7df934c471",
-  "url": "/__l5e/assets-v1/7668dda7-f3d5-47e5-b708-d901813e6e31/ggs-feed-32-nail-mask.png",
-  "r2_key": "a/v1/87a2f2e2-5af9-46e2-8f0a-ca7df934c471/7668dda7-f3d5-47e5-b708-d901813e6e31/ggs-feed-32-nail-mask.png",
-  "original_filename": "ggs-feed-32-nail-mask.png",
-  "size": 13763,
   "content_type": "image/png",
-  "created_at": "2026-11-18T09:02:44Z"
+  "created_at": "2026-11-18T09:02:44Z",
+  "original_filename": "ggs-feed-32-nail-mask.png",
+  "project_id": "69d38703-1bcc-460d-b930-b716e4ac04a5",
+  "r2_key": "a/v1/69d38703-1bcc-460d-b930-b716e4ac04a5/7668dda7-f3d5-47e5-b708-d901813e6e31/ggs-feed-32-nail-mask.png",
+  "size": 13763,
+  "url": "/__l5e/assets-v1/7668dda7-f3d5-47e5-b708-d901813e6e31/ggs-feed-32-nail-mask.png",
+  "version": 1
 }

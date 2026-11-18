@@ -1,11 +1,11 @@
 {
-  "version": 1,
   "asset_id": "9c5a2301-853f-4221-bc7b-87db1b8916f7",
-  "project_id": "87a2f2e2-5af9-46e2-8f0a-ca7df934c471",
-  "url": "/__l5e/assets-v1/9c5a2301-853f-4221-bc7b-87db1b8916f7/ggs-feed-33-cat-eye-glitter.jpg",
-  "r2_key": "a/v1/87a2f2e2-5af9-46e2-8f0a-ca7df934c471/9c5a2301-853f-4221-bc7b-87db1b8916f7/ggs-feed-33-cat-eye-glitter.jpg",
-  "original_filename": "ggs-feed-33-cat-eye-glitter.jpg",
-  "size": 307496,
   "content_type": "image/jpeg",
-  "created_at": "2026-11-18T09:02:44Z"
+  "created_at": "2026-11-18T09:02:44Z",
+  "original_filename": "ggs-feed-33-cat-eye-glitter.jpg",
+  "project_id": "69d38703-1bcc-460d-b930-b716e4ac04a5",
+  "r2_key": "a/v1/69d38703-1bcc-460d-b930-b716e4ac04a5/9c5a2301-853f-4221-bc7b-87db1b8916f7/ggs-feed-33-cat-eye-glitter.jpg",
+  "size": 307496,
+  "url": "/__l5e/assets-v1/9c5a2301-853f-4221-bc7b-87db1b8916f7/ggs-feed-33-cat-eye-glitter.jpg",
+  "version": 1
 }

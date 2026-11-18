@@ -1,11 +1,11 @@
 {
-  "version": 1,
   "asset_id": "cbae5c7a-454f-4b72-af84-699e49b75c12",
-  "project_id": "87a2f2e2-5af9-46e2-8f0a-ca7df934c471",
-  "url": "/__l5e/assets-v1/cbae5c7a-454f-4b72-af84-699e49b75c12/GGS-Price-List-A4-Halaman-3.png",
-  "r2_key": "a/v1/87a2f2e2-5af9-46e2-8f0a-ca7df934c471/cbae5c7a-454f-4b72-af84-699e49b75c12/GGS-Price-List-A4-Halaman-3.png",
-  "original_filename": "GGS-Price-List-A4-Halaman-3.png",
-  "size": 3680246,
   "content_type": "image/png",
-  "created_at": "2026-11-18T09:02:36Z"
+  "created_at": "2026-11-18T09:02:36Z",
+  "original_filename": "GGS-Price-List-A4-Halaman-3.png",
+  "project_id": "69d38703-1bcc-460d-b930-b716e4ac04a5",
+  "r2_key": "a/v1/69d38703-1bcc-460d-b930-b716e4ac04a5/cbae5c7a-454f-4b72-af84-699e49b75c12/GGS-Price-List-A4-Halaman-3.png",
+  "size": 3680246,
+  "url": "/__l5e/assets-v1/cbae5c7a-454f-4b72-af84-699e49b75c12/GGS-Price-List-A4-Halaman-3.png",
+  "version": 1
 }

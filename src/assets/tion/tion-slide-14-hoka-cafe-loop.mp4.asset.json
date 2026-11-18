@@ -1,11 +1,11 @@
 {
-  "version": 1,
   "asset_id": "a250227a-12e9-416d-96c9-b52e07d7afdd",
-  "project_id": "87a2f2e2-5af9-46e2-8f0a-ca7df934c471",
-  "url": "/__l5e/assets-v1/a250227a-12e9-416d-96c9-b52e07d7afdd/tion-slide-14-hoka-cafe-loop.mp4",
-  "r2_key": "a/v1/87a2f2e2-5af9-46e2-8f0a-ca7df934c471/a250227a-12e9-416d-96c9-b52e07d7afdd/tion-slide-14-hoka-cafe-loop.mp4",
-  "original_filename": "tion-slide-14-hoka-cafe-loop.mp4",
-  "size": 11365741,
   "content_type": "video/mp4",
-  "created_at": "2026-11-18T09:03:18Z"
+  "created_at": "2026-11-18T09:03:18Z",
+  "original_filename": "tion-slide-14-hoka-cafe-loop.mp4",
+  "project_id": "69d38703-1bcc-460d-b930-b716e4ac04a5",
+  "r2_key": "a/v1/69d38703-1bcc-460d-b930-b716e4ac04a5/a250227a-12e9-416d-96c9-b52e07d7afdd/tion-slide-14-hoka-cafe-loop.mp4",
+  "size": 11365741,
+  "url": "/__l5e/assets-v1/a250227a-12e9-416d-96c9-b52e07d7afdd/tion-slide-14-hoka-cafe-loop.mp4",
+  "version": 1
 }

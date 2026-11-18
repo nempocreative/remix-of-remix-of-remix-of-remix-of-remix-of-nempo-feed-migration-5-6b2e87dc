@@ -1,11 +1,11 @@
 {
-  "version": 1,
   "asset_id": "0d57cac2-79d4-4db0-a6af-1349f929fb94",
-  "project_id": "87a2f2e2-5af9-46e2-8f0a-ca7df934c471",
-  "url": "/__l5e/assets-v1/0d57cac2-79d4-4db0-a6af-1349f929fb94/tion-slide-13-roti-o-cafe-loop.mp4",
-  "r2_key": "a/v1/87a2f2e2-5af9-46e2-8f0a-ca7df934c471/0d57cac2-79d4-4db0-a6af-1349f929fb94/tion-slide-13-roti-o-cafe-loop.mp4",
-  "original_filename": "tion-slide-13-roti-o-cafe-loop.mp4",
-  "size": 4602506,
   "content_type": "video/mp4",
-  "created_at": "2026-11-18T09:03:17Z"
+  "created_at": "2026-11-18T09:03:17Z",
+  "original_filename": "tion-slide-13-roti-o-cafe-loop.mp4",
+  "project_id": "69d38703-1bcc-460d-b930-b716e4ac04a5",
+  "r2_key": "a/v1/69d38703-1bcc-460d-b930-b716e4ac04a5/0d57cac2-79d4-4db0-a6af-1349f929fb94/tion-slide-13-roti-o-cafe-loop.mp4",
+  "size": 4602506,
+  "url": "/__l5e/assets-v1/0d57cac2-79d4-4db0-a6af-1349f929fb94/tion-slide-13-roti-o-cafe-loop.mp4",
+  "version": 1
 }
