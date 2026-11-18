@@ -32,7 +32,7 @@
 .gbf-foot-badge{flex-shrink:0;display:flex;align-items:center;justify-content:center;width:12.4cqw;height:12.4cqw;border-radius:50%;background:var(--gbf-paper);box-shadow:0 0 0 .45cqw var(--gbf-gold)}
 .gbf-foot-badge img{display:block;width:9cqw;height:auto}
 .gbf-foot-copy{display:flex;flex-direction:column;align-items:stretch;gap:1.4cqw}
-.gbf-foot-tag{font-family:'Caveat',cursive;font-style:normal;font-weight:700;font-size:3.6cqw;line-height:1.06;letter-spacing:0;text-align:right;color:var(--gbf-gold)}
+.gbf-foot-tag{font-family:'Caveat',cursive;font-style:normal;font-weight:700;font-size:4cqw;line-height:1.06;letter-spacing:0;text-align:right;padding-right:0.6cqw;color:var(--gbf-gold)}
 .gbf-foot-line{display:block}
 .gbf-foot-contacts{display:flex;gap:1.8cqw}
 .gbf-foot-pill{display:inline-flex;align-items:center;gap:1.1cqw;padding:1cqw 2.2cqw;border-radius:99cqw;border:.25cqw solid var(--gbf-pill-edge);background:var(--gbf-pill-bg);font-size:2.5cqw;font-weight:700;line-height:1;color:var(--gbf-paper)}

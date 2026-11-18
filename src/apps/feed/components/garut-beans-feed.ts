@@ -6,8 +6,8 @@ export const GARUT_BEANS_BRAND = {
   name: 'Garut Beans',
   sub: 'G-BEANS · SPECIALTY COFFEE',
   tagline: 'Kopi spesialti dari lereng gunung Garut',
-  /** Footer tagline, broken by hand so the two lines stay balanced. */
-  taglineLines: ['Kopi spesialti dari', 'lereng gunung Garut'],
+  /** Footer tagline, one straight line sized to sit flush with the WhatsApp pill's right edge. */
+  taglineLines: ['Kopi spesialti dari lereng gunung Garut'],
   region: 'Garut, Jawa Barat',
   instagram: '@garutbeans',
   /** Orders and questions go through NEMPO's WhatsApp. */

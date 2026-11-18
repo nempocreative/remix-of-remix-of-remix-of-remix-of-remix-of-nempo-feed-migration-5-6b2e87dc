@@ -10,9 +10,9 @@ describe('Garut Beans feed', () => {
     expect(GARUT_BEANS_BRAND.tagline).toBe('Kopi spesialti dari lereng gunung Garut');
   });
 
-  it('breaks the footer tagline into two balanced lines', () => {
+  it('keeps the footer tagline as one straight line', () => {
     expect(GARUT_BEANS_BRAND.taglineLines.join(' ')).toBe(GARUT_BEANS_BRAND.tagline);
-    expect(GARUT_BEANS_BRAND.taglineLines).toEqual(['Kopi spesialti dari', 'lereng gunung Garut']);
+    expect(GARUT_BEANS_BRAND.taglineLines).toEqual(['Kopi spesialti dari lereng gunung Garut']);
   });
 
   it('shows the website altitudes for the three coffees', () => {
