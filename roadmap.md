@@ -109,3 +109,4 @@
 - [x] Garut Beans slide 01: redesigned as logo-philosophy post (huruf G = Garut, biji kopi, daun emas — owner confirmed), PNG 3× recaptured and download verified
 - [x] Garut Beans slide 01 revisions: top kicker + brand name removed, logo clear of text, headline "Filosofi Logo", new heading font, footer with tagline + IG @garutbeans + NEMPO WhatsApp; PNG 3× recaptured, download verified
 - [x] Garut Beans slide 01 footer tagline: font swapped to Cormorant Garamond italic on two hand-balanced lines, footer band raised so the contact pills are no longer clipped at the slide edge; PNG 3× recaptured, download verified byte-identical
+- [x] Garut Beans slide 01: tagline balik ke font Caveat, lebih kecil, rata kanan ke pill WhatsApp; PNG unduhan direkam ulang
