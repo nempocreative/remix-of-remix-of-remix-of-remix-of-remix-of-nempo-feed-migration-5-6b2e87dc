@@ -232,6 +232,21 @@
   --ggpx-check-a: #8a8088;
   --ggpx-check-b: #a59ca3;
 }
+/* GGS Feed slide 60 (3:4, transparent): slide 53's sticker style carrying the year-end nail-art promo. */
+.ggpa-root {
+  --ggpa-ink: #3a1027;
+  --ggpa-plum: #4a1730;
+  --ggpa-pink: #e0457b;
+  --ggpa-pink-light: #ffb3c9;
+  --ggpa-card: #ffffff;
+  --ggpa-was: #9c7d8c;
+  --ggpa-card-shadow: 0 1.4cqw 3.6cqw color-mix(in srgb, #3a1027 34%, transparent);
+  --ggpa-spark-shadow: drop-shadow(0 .4cqw .8cqw color-mix(in srgb, #3a1027 40%, transparent));
+  --ggpa-arrow: #ffffff;
+  --ggpa-arrow-shadow: drop-shadow(0 .4cqw .8cqw color-mix(in srgb, #1d1a12 55%, transparent));
+  --ggpa-check-a: #8a8088;
+  --ggpa-check-b: #a59ca3;
+}
 /* GGS Feed slide 39 (3:4): "Kuku bagus menawan dengan Nail Art" over the owner's pink-nails photo. */
 .ggkm-root {
   --ggkm-plum: #4a1730;

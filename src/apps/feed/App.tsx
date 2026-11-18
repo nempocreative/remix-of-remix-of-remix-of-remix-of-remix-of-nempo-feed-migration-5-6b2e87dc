@@ -209,6 +209,7 @@ import { GgsMalmingGarutSlide } from './components/GgsMalmingGarutSlide';
 import ggsMalmingGarutPng from '@/assets/ggs-feed-50-himbauan-warga-garut.png.asset.json';
 import { GgsUndanganNailSlide } from './components/GgsUndanganNailSlide';
 import { GgsNailOpenSlide } from './components/GgsNailOpenSlide';
+import { GgsPromoAkhirTahunSlide } from './components/GgsPromoAkhirTahunSlide';
 import ggsNailOpenPng from '@/assets/ggs-feed-52-we-are-open.png.asset.json';
 import { GgsPovScrubSlide } from './components/GgsPovScrubSlide';
 import { GarutBeansOpeningSlide } from './components/GarutBeansOpeningSlide';
@@ -320,7 +321,7 @@ type FeedSlide =
   | 50
   | 51;
 
-type ClientSlide = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 | 32 | 33 | 34 | 35 | 36 | 37 | 38 | 39 | 40 | 41 | 42 | 43 | 44 | 45 | 46 | 47 | 48 | 49 | 50 | 51 | 52 | 53 | 54 | 55 | 56 | 57 | 58 | 59;
+type ClientSlide = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 | 32 | 33 | 34 | 35 | 36 | 37 | 38 | 39 | 40 | 41 | 42 | 43 | 44 | 45 | 46 | 47 | 48 | 49 | 50 | 51 | 52 | 53 | 54 | 55 | 56 | 57 | 58 | 59 | 60;
 
 const cafes = [
   {
@@ -2869,6 +2870,15 @@ function GgsPovScrubCapture({ exportRef }: { exportRef: RefObject<HTMLElement | 
   return <GgsPovScrubSlide exportRef={exportRef} checker={checker} />;
 }
 
+/** Slide 60: `?ggpa=plain` hides the preview checkerboard so the PNG capture stays transparent. */
+function GgsPromoAkhirTahunCapture({ exportRef }: { exportRef: RefObject<HTMLElement | null> }) {
+  const [checker, setChecker] = useState(true);
+  useEffect(() => {
+    setChecker(new URLSearchParams(window.location.search).get('ggpa') !== 'plain');
+  }, []);
+  return <GgsPromoAkhirTahunSlide exportRef={exportRef} checker={checker} />;
+}
+
 /** Slide 52: `?ggno=plain` drops the overlay so the 3× PNG can composite a Lanczos-upscaled overlay afterwards. */
 /** Slides 54–58: `?ggsn=plain` drops the overlay so the 3× PNG can composite a Lanczos-upscaled overlay afterwards. */
 function GgsSantaHairCapture({ exportRef, slide }: { exportRef: RefObject<HTMLElement | null>; slide: GgsSantaHairSlideNumber }) {
@@ -3063,6 +3073,9 @@ function ClientFeedArtwork({
   }
   if (!isStory && slide === 53) {
     return <GgsPovScrubCapture exportRef={exportRef} />;
+  }
+  if (!isStory && slide === 60) {
+    return <GgsPromoAkhirTahunCapture exportRef={exportRef} />;
   }
   if (!isStory && slide === 59) {
     return <GgsModelRambutSlide exportRef={exportRef} />;
@@ -3422,7 +3435,7 @@ function App() {
       : isGgsFeed
       ? isGgsStory
         ? [1, 2, 3, 4, 5, 6, 7]
-        : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59]
+        : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
       : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, ...DIVISION_SLIDES, NEMPO_PAHLAWAN_SLIDE, NEMPO_CS_SLIDE, NEMPO_BAJIDORAN_SLIDE, NEMPO_BAJIDORAN_REEL_SLIDE, NEMPO_BAJIDORAN_SAWER_SLIDE, 49, NEMPO_SADULI_DJ_SLIDE, NEMPO_AJAK_REQUEST_SLIDE];
   const selectedSlide =
     isGgsFeed ? activeClientSlide : activeSlide;
