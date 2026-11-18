@@ -31,8 +31,8 @@
 .gbf-foot-inner{position:absolute;left:0;right:0;top:4.6cqw;bottom:0;display:flex;align-items:center;justify-content:center;gap:3.4cqw;padding:0 6cqw;background:var(--gbf-band)}
 .gbf-foot-badge{flex-shrink:0;display:flex;align-items:center;justify-content:center;width:12.4cqw;height:12.4cqw;border-radius:50%;background:var(--gbf-paper);box-shadow:0 0 0 .45cqw var(--gbf-gold)}
 .gbf-foot-badge img{display:block;width:9cqw;height:auto}
-.gbf-foot-copy{display:flex;flex-direction:column;align-items:flex-start;gap:1.4cqw}
-.gbf-foot-tag{font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:600;font-size:4.5cqw;line-height:1.08;letter-spacing:.005em;color:var(--gbf-gold)}
+.gbf-foot-copy{display:flex;flex-direction:column;align-items:stretch;gap:1.4cqw}
+.gbf-foot-tag{font-family:'Caveat',cursive;font-style:normal;font-weight:700;font-size:3.6cqw;line-height:1.06;letter-spacing:0;text-align:right;color:var(--gbf-gold)}
 .gbf-foot-line{display:block}
 .gbf-foot-contacts{display:flex;gap:1.8cqw}
 .gbf-foot-pill{display:inline-flex;align-items:center;gap:1.1cqw;padding:1cqw 2.2cqw;border-radius:99cqw;border:.25cqw solid var(--gbf-pill-edge);background:var(--gbf-pill-bg);font-size:2.5cqw;font-weight:700;line-height:1;color:var(--gbf-paper)}
