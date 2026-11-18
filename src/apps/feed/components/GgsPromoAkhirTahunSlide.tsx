@@ -3,8 +3,8 @@ import { GGS_PROMO_AKHIR_TAHUN, GGS_PROMO_AKHIR_TAHUN_TEXT } from './ggs-promo-a
 import './GgsPromoAkhirTahunSlide.css';
 
 /**
- * GGS Feed slide 60: year-end nail-art promo sticker in slide 53's style (tilted white card, promo pill,
- * scissors badge, hand-drawn arrow) on a transparent 3:4 canvas — no photo, no header/footer.
+ * GGS Feed slide 60: year-end split-end hair treatment promo sticker in slide 53's style (tilted white card,
+ * promo pill, scissors badge, hand-drawn arrow) on a transparent 3:4 canvas — no photo, no header/footer.
  * `checker={false}` hides the preview checkerboard so the PNG capture keeps a transparent background.
  */
 export function GgsPromoAkhirTahunSlide({ exportRef, checker = true }: { exportRef?: RefObject<HTMLElement | null>; checker?: boolean }) {
@@ -28,20 +28,8 @@ export function GgsPromoAkhirTahunSlide({ exportRef, checker = true }: { exportR
           ))}
         </p>
 
-        <ul className="ggpa-prices">
-          {GGS_PROMO_AKHIR_TAHUN.prices.map((p) => (
-            <li key={p.label} className="ggpa-price">
-              <span className="ggpa-price-label">{p.label}</span>
-              <span className="ggpa-price-was">
-                <s>Rp{p.was}</s>
-              </span>
-              <span className="ggpa-price-now">
-                <small>Rp</small>
-                {p.now}
-              </span>
-            </li>
-          ))}
-        </ul>
+        <p className="ggpa-offer">{GGS_PROMO_AKHIR_TAHUN.offer}</p>
+        <p className="ggpa-note">{GGS_PROMO_AKHIR_TAHUN.note}</p>
 
         <p className="ggpa-period">{GGS_PROMO_AKHIR_TAHUN.period}</p>
 

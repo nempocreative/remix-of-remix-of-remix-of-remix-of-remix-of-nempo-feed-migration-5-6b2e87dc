@@ -113,3 +113,4 @@
 - [x] Garut Beans slide 01: tagline satu baris lurus, diperkecil biar ujung kanannya pas sama ujung pill WhatsApp; PNG unduhan direkam ulang
 - [x] GGS Feed slide 60: promo akhir tahun (kuku asli 185.000→135.000, kuku palsu 250.000→195.000, 18 Nov–31 Des 2026) gaya stiker slide 53; PNG transparan 3240×4320 diunduh
 - [x] GGS Feed slide 60: unduhan disamakan dengan slide 53 (satu PNG transparan 3240×4320)
+- [ ] GGS Feed slide 60: teks jadi "Treatment Rambut Bercabang" + "Hempas Rambut Bercabang", tanpa harga — "Promo 10–30%" dan "S&K berlaku"; PNG transparan recapture
