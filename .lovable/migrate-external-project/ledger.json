@@ -1,0 +1,82 @@
+{
+  "source": "github.com/nempocreative/nempo-feed-10",
+  "capabilities": [
+    {
+      "capability": "code",
+      "source": "TanStack Start app (NEMPO Feed, Tion Feed, GGS price list) with sub-apps in src/apps",
+      "outcome": "migrate",
+      "status": "verified",
+      "next_action": "none"
+    },
+    {
+      "capability": "uploaded file bytes",
+      "source": "216 media pointers re-uploaded to this project (same asset IDs), sizes matched, all served",
+      "outcome": "migrate",
+      "status": "verified",
+      "next_action": "none"
+    },
+    {
+      "capability": "schema",
+      "source": "none detected",
+      "outcome": "not_applicable",
+      "status": "verified",
+      "next_action": "none"
+    },
+    {
+      "capability": "records",
+      "source": "none detected",
+      "outcome": "not_applicable",
+      "status": "verified",
+      "next_action": "none"
+    },
+    {
+      "capability": "auth identities",
+      "source": "none detected",
+      "outcome": "not_applicable",
+      "status": "verified",
+      "next_action": "none"
+    },
+    {
+      "capability": "authorization",
+      "source": "none detected",
+      "outcome": "not_applicable",
+      "status": "verified",
+      "next_action": "none"
+    },
+    {
+      "capability": "external providers",
+      "source": "none detected",
+      "outcome": "not_applicable",
+      "status": "verified",
+      "next_action": "none"
+    },
+    {
+      "capability": "public endpoints/callbacks/webhooks/schedules",
+      "source": "none detected",
+      "outcome": "not_applicable",
+      "status": "verified",
+      "next_action": "none"
+    },
+    {
+      "capability": "secrets",
+      "source": "none required",
+      "outcome": "not_applicable",
+      "status": "verified",
+      "next_action": "none"
+    },
+    {
+      "capability": "cutover",
+      "source": "source project URL",
+      "outcome": "user_decision",
+      "status": "pending",
+      "next_action": "Publish this project when ready"
+    },
+    {
+      "capability": "verification",
+      "source": "38 test files / 157 tests pass; /nempo-feed, /tion-feed, /ggs-price-list load with no broken images or errors",
+      "outcome": "verify",
+      "status": "verified",
+      "next_action": "none"
+    }
+  ]
+}
