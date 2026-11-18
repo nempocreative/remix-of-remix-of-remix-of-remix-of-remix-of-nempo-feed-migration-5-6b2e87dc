@@ -217,7 +217,6 @@ import { GARUT_BEANS_SLIDES, type GarutBeansSlide } from './components/garut-bea
 import garutBeansOpeningPng from '@/assets/garut-beans/garut-beans-01-filosofi-logo.png.asset.json';
 import ggsPovScrubPng from '@/assets/ggs-feed-53-pov-playlist-owner.png.asset.json';
 import ggsPromoAkhirTahunPng from '@/assets/ggs-feed-60-promo-akhir-tahun.png.asset.json';
-import ggsPromoAkhirTahunStikerPng from '@/assets/ggs-feed-60-promo-akhir-tahun-stiker.png.asset.json';
 import { GgsSantaHairSlide } from './components/GgsSantaHairSlide';
 import { GgsModelRambutSlide } from './components/GgsModelRambutSlide';
 import ggsModelRambutVideo from '@/assets/ggs-feed-59-pilih-model-rambut.mp4.asset.json';
@@ -3911,18 +3910,11 @@ function App() {
                   key="ggs-feed-60"
                   src={ggsPromoAkhirTahunPng.url}
                   fileName="GGS-Feed-60-Promo-Akhir-Tahun-Transparan.png"
-                  label="Download PNG transparan · kanvas 3:4"
-                  className="inline-flex items-center gap-2 rounded-full bg-[#062f4d] px-4 py-2 text-[11px] font-black text-white shadow-[0_8px_20px_rgba(0,40,78,0.2)] transition-colors hover:bg-[#0b4d69] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#ffdd00] focus-visible:ring-offset-2"
-                />
-                <PrebuiltPngDownload
-                  key="ggs-feed-60-stiker"
-                  src={ggsPromoAkhirTahunStikerPng.url}
-                  fileName="GGS-Feed-60-Promo-Akhir-Tahun-Stiker.png"
-                  label="Download PNG stiker · dipotong pas"
+                  label="Download PNG transparan · 3×"
                   className="inline-flex items-center gap-2 rounded-full bg-[#062f4d] px-4 py-2 text-[11px] font-black text-white shadow-[0_8px_20px_rgba(0,40,78,0.2)] transition-colors hover:bg-[#0b4d69] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#ffdd00] focus-visible:ring-offset-2"
                 />
                 <p className="max-w-[92vw] text-center text-[10px] font-medium text-slate-600">
-                  Keduanya PNG tanpa latar (tembus pandang), tanpa header/footer. Kanvas 3:4 = 3240×4320; stiker = 2985×3082, dipotong pas ke kartu, gunting, dan anak panah. Kotak-kotak abu di pratinjau tidak ikut terunduh.
+                  PNG 3240×4320 tanpa latar, tanpa header/footer — hanya kartu promo, gunting, dan anak panah. Kotak-kotak abu di pratinjau tidak ikut terunduh.
                 </p>
               </>
             ) : activeFeed === 'client' && activeClientSlide === 53 ? (
