@@ -14,4 +14,4 @@ export const GGS_TEASER_SPESIAL = {
   cta: 'Pantau terus & jangan lupa follow IG GGS ya!',
 } as const;
 
-export const GGS_TEASER_SPESIAL_TEXT = `Besok, ${GGS_TEASER_SPESIAL.date}. ${GGS_TEASER_SPESIAL.title} ${GGS_TEASER_SPESIAL.audience}. ${GGS_TEASER_SPESIAL.benefits.map((item) => item.text).join('. ')}. ${GGS_TEASER_SPESIAL.cta}`;
+export const GGS_TEASER_SPESIAL_TEXT = `${GGS_TEASER_SPESIAL.date}. ${GGS_TEASER_SPESIAL.title} ${GGS_TEASER_SPESIAL.audience}. ${GGS_TEASER_SPESIAL.benefits.map((item) => item.text).join('. ')}. ${GGS_TEASER_SPESIAL.cta}`;

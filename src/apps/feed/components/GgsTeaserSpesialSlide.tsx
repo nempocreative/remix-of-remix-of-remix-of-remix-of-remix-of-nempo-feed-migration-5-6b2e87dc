@@ -1,10 +1,10 @@
 import type { RefObject } from 'react';
-import { BadgePercent, CalendarCheck, CalendarDays, Gift, Instagram, Sparkles } from 'lucide-react';
+import { BadgePercent, CalendarCheck, CalendarDays, Crown, Gift, Instagram } from 'lucide-react';
 import ggsWatermark from '@/assets/ggs-header-footer-v2.png.asset.json';
 import { GGS_TEASER_SPESIAL, GGS_TEASER_SPESIAL_TEXT } from './ggs-teaser-spesial';
 import './GgsTeaserSpesialSlide.css';
 
-const BENEFIT_ICONS = [CalendarCheck, CalendarDays, BadgePercent, Gift, Sparkles] as const;
+const BENEFIT_ICONS = [CalendarCheck, CalendarDays, BadgePercent, Gift, Crown] as const;
 
 /** GGS Feed slide 61: tomorrow's customer teaser with the five announced benefits. */
 export function GgsTeaserSpesialSlide({ exportRef, frame = true }: { exportRef?: RefObject<HTMLElement | null>; frame?: boolean }) {
@@ -17,11 +17,10 @@ export function GgsTeaserSpesialSlide({ exportRef, frame = true }: { exportRef?:
     >
       <span className="ggts-orbit ggts-orbit--one" aria-hidden="true" />
       <span className="ggts-orbit ggts-orbit--two" aria-hidden="true" />
-      <Sparkles className="ggts-spark ggts-spark--left" aria-hidden="true" />
-      <Sparkles className="ggts-spark ggts-spark--right" aria-hidden="true" />
+      <Crown className="ggts-spark ggts-spark--left" aria-hidden="true" />
+      <Crown className="ggts-spark ggts-spark--right" aria-hidden="true" />
 
       <header className="ggts-head" aria-hidden="true">
-        <p className="ggts-kicker">BESOK <i /> {GGS_TEASER_SPESIAL.date}</p>
         <h2 className="ggts-title">
           <span className="ggts-something">Something</span>
           <span className="ggts-special">Spesial!</span>

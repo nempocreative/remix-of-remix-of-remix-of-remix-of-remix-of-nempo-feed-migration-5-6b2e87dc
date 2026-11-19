@@ -2,10 +2,11 @@ import { describe, expect, it } from 'vitest';
 import { GGS_TEASER_SPESIAL, GGS_TEASER_SPESIAL_SLIDE, GGS_TEASER_SPESIAL_TEXT } from './ggs-teaser-spesial';
 
 describe('GGS Feed slide 61 teaser spesial', () => {
-  it('is the new last slide and announces tomorrow, 20 November 2026', () => {
+  it('is the new last slide, names 20 November 2026 and drops the word Besok', () => {
     expect(GGS_TEASER_SPESIAL_SLIDE).toBe(61);
     expect(GGS_TEASER_SPESIAL.date).toBe('20 November 2026');
-    expect(GGS_TEASER_SPESIAL_TEXT).toContain('Besok, 20 November 2026');
+    expect(GGS_TEASER_SPESIAL_TEXT).toContain('20 November 2026');
+    expect(GGS_TEASER_SPESIAL_TEXT).not.toContain('Besok');
   });
 
   it('addresses GGS Hair Studio customers', () => {
