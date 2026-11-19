@@ -21,7 +21,7 @@ describe('GGS Feed slide 60 promo akhir tahun', () => {
     expect(GGS_PROMO_AKHIR_TAHUN_TEXT).not.toMatch(/Rp|\d{3}\.\d{3}/);
   });
 
-  it('is slide 60, the last GGS feed slide', () => {
+  it('uses GGS feed slide 60', () => {
     expect(GGS_PROMO_AKHIR_TAHUN_SLIDE).toBe(60);
   });
 
