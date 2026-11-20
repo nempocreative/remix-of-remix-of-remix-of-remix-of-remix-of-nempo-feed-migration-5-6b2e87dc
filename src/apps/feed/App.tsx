@@ -220,7 +220,6 @@ import garutBeansOpeningPng from '@/assets/garut-beans/garut-beans-01-filosofi-l
 import ggsPovScrubPng from '@/assets/ggs-feed-53-pov-playlist-owner.png.asset.json';
 import ggsPromoAkhirTahunPng from '@/assets/ggs-feed-60-promo-akhir-tahun.png.asset.json';
 import ggsTeaserSpesialPng from '@/assets/ggs-feed-61-something-spesial.png.asset.json';
-import ggsWeAreOpen62Png from '@/assets/ggs-feed-62-we-are-open.png.asset.json';
 import { GgsSantaHairSlide } from './components/GgsSantaHairSlide';
 import { GgsModelRambutSlide } from './components/GgsModelRambutSlide';
 import ggsModelRambutVideo from '@/assets/ggs-feed-59-pilih-model-rambut.mp4.asset.json';
@@ -3925,19 +3924,6 @@ function App() {
                   key={`ggs-feed-${activeClientSlide}`}
                   src={GGS_SANTA_HAIR[activeClientSlide as GgsSantaHairSlideNumber].png}
                   fileName={GGS_SANTA_HAIR[activeClientSlide as GgsSantaHairSlideNumber].fileName}
-                  label="Download PNG · 3×"
-                  className="inline-flex items-center gap-2 rounded-full bg-[#062f4d] px-4 py-2 text-[11px] font-black text-white shadow-[0_8px_20px_rgba(0,40,78,0.2)] transition-colors hover:bg-[#0b4d69] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#ffdd00] focus-visible:ring-offset-2"
-                />
-                <p className="max-w-[92vw] text-center text-[10px] font-medium text-slate-600">
-                  PNG 3240×4320. Di iPad/iPhone pilih “Simpan Gambar” atau “Simpan ke File”; jika gambar terbuka, tekan lama lalu Simpan.
-                </p>
-              </>
-            ) : activeFeed === 'client' && activeClientSlide === 62 ? (
-              <>
-                <PrebuiltPngDownload
-                  key="ggs-feed-62"
-                  src={ggsWeAreOpen62Png.url}
-                  fileName="GGS-Feed-62-We-Are-Open.png"
                   label="Download PNG · 3×"
                   className="inline-flex items-center gap-2 rounded-full bg-[#062f4d] px-4 py-2 text-[11px] font-black text-white shadow-[0_8px_20px_rgba(0,40,78,0.2)] transition-colors hover:bg-[#0b4d69] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#ffdd00] focus-visible:ring-offset-2"
                 />
