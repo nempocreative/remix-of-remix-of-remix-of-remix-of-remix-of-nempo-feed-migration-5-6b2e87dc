@@ -18,7 +18,6 @@ export function GgsWeAreOpen62Slide({ exportRef, frame = true }: { exportRef?: R
       <div className="ggop-veil-bottom" aria-hidden="true" />
 
       <header className="ggop-head" aria-hidden="true">
-        <p className="ggop-kicker">{GGS_WE_ARE_OPEN_62.kicker}</p>
         <h2 className="ggop-title">
           <span className="ggop-title-top">{GGS_WE_ARE_OPEN_62.titleTop}</span>
           <em className="ggop-title-em">{GGS_WE_ARE_OPEN_62.titleEmphasis}</em>
@@ -26,6 +25,7 @@ export function GgsWeAreOpen62Slide({ exportRef, frame = true }: { exportRef?: R
       </header>
 
       <section className="ggop-invite" aria-hidden="true">
+        <p className="ggop-kicker">{GGS_WE_ARE_OPEN_62.kicker}</p>
         <h3 className="ggop-invite-title">{GGS_WE_ARE_OPEN_62.inviteTitle}</h3>
         <p className="ggop-invite-body">{GGS_WE_ARE_OPEN_62.inviteBody}</p>
         <span className="ggop-invite-line" aria-hidden="true" />

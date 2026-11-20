@@ -116,3 +116,4 @@
 - [x] GGS Feed slide 60: teks jadi "Treatment Rambut Bercabang" + "Hempas Rambut Bercabang", tanpa harga — "Promo 10–30%" dan "S&K berlaku"; PNG transparan recapture
 - [x] GGS Feed slide 61: teaser besok 20 November 2026 — booking, jadwal kosong, promo harian, poin spesial, follow IG; PNG 3× dan uji unduhan
 - [x] GGS Feed slide 61: baris atas "BESOK • 20 NOVEMBER 2026" dihapus semua (judul naik), font "Something" jadi Shrikhand, ikon bintang diganti mahkota; PNG 3× recapture + uji unduhan
+- [x] GGS Feed slide 62: "We are open" di atas foto treatment, nama GGS Beauty; baris merek dipindah ke atas ajakan supaya tidak tertutup logo; PNG 3× direkam + uji unduhan

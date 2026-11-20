@@ -35,19 +35,20 @@
 
 .ggop-head {
   position: absolute;
-  top: 9cqw;
+  top: 12cqw;
   left: 8cqw;
   right: 8cqw;
   text-align: center;
 }
 
 .ggop-kicker {
-  margin: 0 0 2.6cqw;
-  font-size: 3.1cqw;
+  margin: 0 0 2.2cqw;
+  font-size: 2.8cqw;
   font-weight: 800;
-  letter-spacing: 0.32em;
+  letter-spacing: 0.3em;
   text-transform: uppercase;
-  color: var(--ggop-plum);
+  color: var(--ggop-pink-soft);
+  text-shadow: 0 0.2cqw 1.2cqw var(--ggop-shade-strong);
 }
 
 .ggop-title {
