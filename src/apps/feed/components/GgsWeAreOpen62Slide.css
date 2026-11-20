@@ -6,9 +6,12 @@
   overflow: hidden;
   container-type: inline-size;
   background: var(--ggop-bg);
-  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  font-family: 'DM Sans', sans-serif;
   color: var(--ggop-ink);
 }
+
+.ggop-root * { letter-spacing: 0; }
+.ggop-root p, .ggop-root h2, .ggop-root h3 { margin: 0; }
 
 .ggop-photo {
   position: absolute;
@@ -35,46 +38,37 @@
 
 .ggop-head {
   position: absolute;
-  top: 12cqw;
-  left: 8cqw;
-  right: 8cqw;
+  top: 18cqw;
+  left: 7cqw;
+  right: 7cqw;
   text-align: center;
-}
-
-.ggop-kicker {
-  margin: 0 0 2.2cqw;
-  font-size: 2.8cqw;
-  font-weight: 800;
-  letter-spacing: 0.3em;
-  text-transform: uppercase;
-  color: var(--ggop-pink-soft);
-  text-shadow: 0 0.2cqw 1.2cqw var(--ggop-shade-strong);
 }
 
 .ggop-title {
   margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  line-height: 0.94;
+  font-family: 'Playfair Display', Georgia, serif;
+  line-height: 0.95;
+  padding-top: 1cqw;
 }
 
 .ggop-title-top {
-  font-family: 'Bricolage Grotesque', sans-serif;
-  font-variation-settings: 'opsz' 96, 'wdth' 88;
-  font-size: 13.5cqw;
-  font-weight: 800;
-  letter-spacing: -0.045em;
+  display: block;
+  font-size: 6.4cqw;
+  font-weight: 500;
   color: var(--ggop-plum);
 }
 
 .ggop-title-em {
-  font-family: 'Shrikhand', serif;
+  display: block;
   font-style: normal;
-  font-size: 15.5cqw;
-  letter-spacing: -0.01em;
-  color: var(--ggop-pink-deep);
-  text-shadow: 0 0.5cqw 0 var(--ggop-veil-mid);
+  font-size: 15cqw;
+  font-weight: 700;
+  padding-bottom: 1cqw;
+  background: var(--ggop-title-fill);
+  background-size: 250% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .ggop-invite {
@@ -87,29 +81,23 @@
 }
 
 .ggop-invite-title {
-  margin: 0 0 1.8cqw;
-  font-family: 'Bricolage Grotesque', sans-serif;
-  font-variation-settings: 'opsz' 96, 'wdth' 92;
-  font-size: 6.4cqw;
+  font-size: 5.1cqw;
   font-weight: 800;
-  letter-spacing: -0.02em;
-  line-height: 1.08;
+  line-height: 1.12;
 }
 
 .ggop-invite-body {
-  margin: 0;
-  font-size: 3.6cqw;
-  font-weight: 600;
-  line-height: 1.45;
+  margin-top: 1.5cqw;
+  font-size: 3.2cqw;
+  line-height: 1.35;
   color: var(--ggop-cream-soft);
 }
 
 .ggop-invite-line {
   display: block;
-  width: 16cqw;
-  height: 0.55cqw;
-  margin: 3.4cqw auto 0;
-  border-radius: 999px;
+  width: 15cqw;
+  height: 0.5cqw;
+  margin: 2cqw auto 0;
   background: var(--ggop-pink);
 }
 

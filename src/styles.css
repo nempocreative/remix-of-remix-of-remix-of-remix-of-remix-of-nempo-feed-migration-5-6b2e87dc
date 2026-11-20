@@ -278,6 +278,7 @@
   --ggop-veil-mid: color-mix(in srgb, #fff3ec 72%, transparent);
   --ggop-shade-strong: color-mix(in srgb, #241109 82%, transparent);
   --ggop-shade-mid: color-mix(in srgb, #241109 42%, transparent);
+  --ggop-title-fill: linear-gradient(110deg, var(--ggop-pink-deep) 25%, var(--ggop-pink-soft) 48%, var(--ggop-pink-deep) 70%);
 }
 /* GGS Feed slide 39 (3:4): "Kuku bagus menawan dengan Nail Art" over the owner's pink-nails photo. */
 .ggkm-root {

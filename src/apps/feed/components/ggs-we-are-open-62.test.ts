@@ -10,8 +10,7 @@ describe('GGS Feed slide 62 — We are open', () => {
     expect(`${GGS_WE_ARE_OPEN_62.titleTop} ${GGS_WE_ARE_OPEN_62.titleEmphasis}`).toBe('We are open.');
   });
 
-  it('names GGS Beauty in the kicker and the invitation', () => {
-    expect(GGS_WE_ARE_OPEN_62.kicker).toContain('GGS Beauty');
+  it('names GGS Beauty in the invitation', () => {
     expect(GGS_WE_ARE_OPEN_62.inviteTitle).toContain('GGS Beauty');
   });
 
@@ -26,7 +25,7 @@ describe('GGS Feed slide 62 — We are open', () => {
   });
 
   it('reads the whole slide aloud in the aria label', () => {
-    for (const part of [GGS_WE_ARE_OPEN_62.kicker, 'We are open.', GGS_WE_ARE_OPEN_62.inviteTitle, GGS_WE_ARE_OPEN_62.inviteBody]) {
+    for (const part of ['We are open.', GGS_WE_ARE_OPEN_62.inviteTitle, GGS_WE_ARE_OPEN_62.inviteBody]) {
       expect(GGS_WE_ARE_OPEN_62_TEXT).toContain(part);
     }
   });
