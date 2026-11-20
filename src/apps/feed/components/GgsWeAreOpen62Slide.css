@@ -1,0 +1,122 @@
+/* GGS Feed slide 62 — "We are open" over the treatment photo. Scoped ggop- styles; colors live in src/styles.css. */
+.ggop-root {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  container-type: inline-size;
+  background: var(--ggop-bg);
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  color: var(--ggop-ink);
+}
+
+.ggop-photo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 62%;
+}
+
+.ggop-veil-top {
+  position: absolute;
+  inset: 0 0 auto;
+  height: 46%;
+  background: linear-gradient(180deg, var(--ggop-veil-strong) 0%, var(--ggop-veil-mid) 55%, transparent 100%);
+}
+
+.ggop-veil-bottom {
+  position: absolute;
+  inset: auto 0 0;
+  height: 42%;
+  background: linear-gradient(0deg, var(--ggop-shade-strong) 0%, var(--ggop-shade-mid) 58%, transparent 100%);
+}
+
+.ggop-head {
+  position: absolute;
+  top: 9cqw;
+  left: 8cqw;
+  right: 8cqw;
+  text-align: center;
+}
+
+.ggop-kicker {
+  margin: 0 0 2.6cqw;
+  font-size: 3.1cqw;
+  font-weight: 800;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--ggop-plum);
+}
+
+.ggop-title {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 0.94;
+}
+
+.ggop-title-top {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-variation-settings: 'opsz' 96, 'wdth' 88;
+  font-size: 13.5cqw;
+  font-weight: 800;
+  letter-spacing: -0.045em;
+  color: var(--ggop-plum);
+}
+
+.ggop-title-em {
+  font-family: 'Shrikhand', serif;
+  font-style: normal;
+  font-size: 15.5cqw;
+  letter-spacing: -0.01em;
+  color: var(--ggop-pink-deep);
+  text-shadow: 0 0.5cqw 0 var(--ggop-veil-mid);
+}
+
+.ggop-invite {
+  position: absolute;
+  left: 8cqw;
+  right: 8cqw;
+  bottom: 12.5cqw;
+  text-align: center;
+  color: var(--ggop-cream);
+}
+
+.ggop-invite-title {
+  margin: 0 0 1.8cqw;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-variation-settings: 'opsz' 96, 'wdth' 92;
+  font-size: 6.4cqw;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.08;
+}
+
+.ggop-invite-body {
+  margin: 0;
+  font-size: 3.6cqw;
+  font-weight: 600;
+  line-height: 1.45;
+  color: var(--ggop-cream-soft);
+}
+
+.ggop-invite-line {
+  display: block;
+  width: 16cqw;
+  height: 0.55cqw;
+  margin: 3.4cqw auto 0;
+  border-radius: 999px;
+  background: var(--ggop-pink);
+}
+
+.ggop-watermark {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}

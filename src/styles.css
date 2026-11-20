@@ -264,6 +264,20 @@
   --ggts-title-shadow: 0 .3cqw 0 #ffffff;
   --ggts-card-shadow: 0 1.6cqw 4cqw color-mix(in srgb, #8e2c52 13%, transparent);
 }
+/* GGS Feed slide 62 (3:4): "We are open" over the owner's treatment photo. */
+.ggop-root {
+  --ggop-bg: #2b1a14;
+  --ggop-plum: #48152e;
+  --ggop-ink: #42152b;
+  --ggop-pink: #df3f78;
+  --ggop-pink-deep: #c72d64;
+  --ggop-cream: #fff6f0;
+  --ggop-cream-soft: color-mix(in srgb, #fff6f0 86%, transparent);
+  --ggop-veil-strong: color-mix(in srgb, #fff3ec 96%, transparent);
+  --ggop-veil-mid: color-mix(in srgb, #fff3ec 72%, transparent);
+  --ggop-shade-strong: color-mix(in srgb, #241109 82%, transparent);
+  --ggop-shade-mid: color-mix(in srgb, #241109 42%, transparent);
+}
 /* GGS Feed slide 39 (3:4): "Kuku bagus menawan dengan Nail Art" over the owner's pink-nails photo. */
 .ggkm-root {
   --ggkm-plum: #4a1730;
